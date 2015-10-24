@@ -21,4 +21,7 @@ nnoremap <A-y> :tabprevious<CR>
 nnoremap <A-u> :tabnext<CR>
 nnoremap we <C-w>
 
-nnoremap <C-w>t :sp<C-w>T
+nnoremap T :sp<CR><C-w>T
+
+nnoremap w' :w<CR>
+inoremap w' <C-o>:w<CR>
