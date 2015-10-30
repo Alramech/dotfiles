@@ -25,3 +25,4 @@ nnoremap T :sp<CR><C-w>T
 
 nnoremap w' :w<CR>
 inoremap w' <C-o>:w<CR>
+inoremap QQ :q<CR>
