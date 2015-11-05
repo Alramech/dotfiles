@@ -6,7 +6,7 @@ let mapleader = "\<Space>"
 filetype plugin indent on
 syntax on
 set encoding=utf-8
-
+execute pathogen#infect()
 tnoremap <A-e> <C-\><C-n>
 tnoremap <A-h> <C-\><C-n><C-w>h
 tnoremap <A-j> <C-\><C-n><C-w>j
